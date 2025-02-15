@@ -78,7 +78,7 @@ variable "api_gateway" {
 variable "sa_key_file_path" {
   type        = string
   description = "Путь для Провайдер «Yandex.Cloud Provider» чтобы искать авторизованный ключ "
-  default     = "/Users/n.maryin/Developer/Cloud_1HW/.venv/key.json"
+  default     = "~/.yc-keys/key.json"
 }
 
 variable "sa_face_detection" {
